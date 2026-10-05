@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+    background-color: rgba(137, 43, 226, 0.298);
+
+
+}
+/* start home page */
+.links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(51, 121, 196, 0.32);
+}
+
+/* end home page */
+
+
+/* start about page */
+.about-section-1 {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(51, 121, 196, 0.32);
+
+}
+
+.about-section-2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(51, 121, 196, 0.32);
+
+}
+/* end about page */
+
+/* start contact page */
+
+/* end contact page */
