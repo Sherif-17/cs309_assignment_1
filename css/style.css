@@ -25,9 +25,9 @@
     font-size: 28px;
 }
 
-.content {
-    margin: 20px;
+.content > div {
     padding: 20px;
+    margin: 20px;
     background-color: rgba(51, 121, 196, 0.32);
 }
 
@@ -48,6 +48,15 @@
     background-color: rgba(51, 121, 196, 0.32);
 
 }
+
+.about-section-2 table{
+    width: 100%;
+}
+
+.about-section-2 th, td {
+    text-align: center;
+}
+
 /* end about page */
 
 /* start contact page */
