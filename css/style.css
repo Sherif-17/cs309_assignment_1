@@ -11,6 +11,7 @@
     background-color: rgba(137, 43, 226, 0.298);
 
 
+
 }
 
 /* start home page */
@@ -26,10 +27,64 @@
     font-size: 28px;
 }
 
+.hello-section {
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+.hello-section h1{
+    font-size: 35px;
+}
+
+.hello-section p{
+   font-size: 20px; 
+}
+
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: rgb(0, 35, 72);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+}
+
+.btn-outline {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    color: rgb(0, 35, 72);
+    border: 2px solid rgb(0, 35, 72);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.home-cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.home-cards>div {
+    background-color: rgba(51, 121, 196, 0.32);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+
+
+}
+
 .content>div {
     padding: 20px;
     margin: 20px;
     background-color: rgba(51, 121, 196, 0.32);
+    border-radius: 10px;
 }
 
 /* end home page */
@@ -40,33 +95,44 @@
     margin: 20px;
     padding: 20px;
     background-color: rgba(51, 121, 196, 0.32);
-
+    border-radius: 10px;
 }
 
 .about-section-2 {
     margin: 20px;
     padding: 20px;
     background-color: rgba(51, 121, 196, 0.32);
+    border-radius: 10px;
 
+}
+
+.about-section-2 h1 {
+    text-align: center;
 }
 
 .about-section-2 table {
     width: 100%;
+    border-radius: 10px;
+
 }
 
-.about-section-2 th,td {
+.about-section-2 th,
+td {
     text-align: center;
-}
+    padding: 10px;
 
+}
 /* end about page */
 
+
+
 /* start contact page */
-
-
 .contact-form>div {
     padding: 20px;
     margin: 20px;
     background-color: rgba(51, 121, 196, 0.32);
+    border-radius: 10px;
+
 }
 
 
